@@ -12,10 +12,10 @@ int main() {
     #endif
     int n;
     string s;
-    int north = 2, east = 4, south = 5, west = 3;
-    int top = 1;
     while (cin >> n) {
         if (n == 0) break;
+        int north = 2, east = 4, south = 5, west = 3;
+        int top = 1;
         while (n--) {
             cin >> s;
             if (s == "north") {
